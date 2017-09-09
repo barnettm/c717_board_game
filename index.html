@@ -6,24 +6,62 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<body>
-<div id ="website" class="container">
-    <div class="menuTitle row">
-        <div class="col-xs-12 col-md-8">
-            <div class="btn-group">
-                <button type="button" class="btn btn-warning" data-toggle="dropdown"></button>
-                <p>Game Nyte</p>
-            <div>
+<body class="container-fluid">
+    <div id ="website" class="row home_page_body">
+        <div class="font home_page_bar title">
+            <div class="col-xs-18 col-lg-8">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning menu_button"></button>
+                </div>
+                    <div class="title_box font_lg">
+                    <h1 class="font">Game Nyte</h1>
+                    </div>
+            </div>
+        </div>
+        <!--body column-->
+        <div class="col-xs-12 col-lg-12 title columns_body">
+            <!--about column-->
+            <div class = "col-xs-12 col-lg-4 about_page">
+                <h2 class = "">About Us</h2>
+                <h4 class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur consequuntur eligendi esse, in inventore ipsa magni maxime nemo neque nisi nulla officiis quam sed tempore ut veniam. Cupiditate, fugiat.</h4>
+            </div>
+            <!--sign-up page column-->
+            <div class = "col-xs-12 col-lg-4 about_page sign_up">
+                <div class = "title sign-up">
+                    <h3 class = "">Sign Up</h3>
+                </div>
+                <div class = "title blue google-login">Google Login</div>
+                <div class = "title blue facebook-login">Facebook Login</div>
+                <div class = " view-width">OR</div>
+                <div class = "title info-input">
+                    <form class = "font_reg">
+                        <div class = "form-group">
+                            <label for = "exampleInputEmail1">Email address</label>
+                            <input type = "email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class = "form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Check me out
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Sign Up</button>
+                    </form>
+
+                </div>
+            </div>
+            <!--map column-->
+            <div class = "col-xs-12 col-lg-4 about_page">
+                <div>Google maps goes here.<img src="./sample_img/sampleMap.JPG" class="img-responsive" alt="Responsive image"></div>
+            </div>
+            <div></div>
         </div>
     </div>
-    <div class="info container">
-        <div class="google_maps"></div>
-        <div></div>
-    </div>
-</div>
-    </div>
-
-</div></body>
+</body>
 </html>
