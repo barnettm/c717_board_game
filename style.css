@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.navBar {
+  background-color: #1E5C9B;
+  color: black;
+  margin-bottom: 5%;
+}
+.center {
+  height: 60%;
+  background-image: url("http://cdn.newsapi.com.au/image/v1/0a0ceda4bda18e664ffac1a8fa86a7d1");
+  background-size: cover;
+}
+.map {
+  height: 50%;
+}
+.gamesList {
+  background-color: #149F71;
+  color: black;
+  height: 60%;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
