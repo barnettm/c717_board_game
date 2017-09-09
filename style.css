@@ -29,4 +29,17 @@ body {
 
 /*this is the beginning of Soy's css*/
 
+p {
+  font-family: Futura, Arial, sans-serif;
+}
+
+.menuTitle {
+  border: 2px solid #1E5B9B;
+  width: 100vw;
+  height: 25%;
+  justify-content: center;
+}
+
+
+
 /*this is the end of Soy's css*/
