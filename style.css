@@ -2,26 +2,41 @@ body {
   background-color: black;
   color: white;
 }
-
-.navBar {
+.green {
+  background-color: #149F71;
+  color: black;
+}
+.blue {
   background-color: #1E5C9B;
   color: black;
+}
+.orange {
+  background-color: #EE651E;
+  color: black;
+}
+.yellow {
+  background-color: #EE9B1E;
+  color: black;
+}
+.navBar {
   margin-bottom: 5%;
 }
-.center {
+.title {
+    border: 5px solid #EE651E;
+    border-radius: 25px;
+    margin-bottom: 1%;
+}
+.map {
   height: 60%;
   background-image: url("http://cdn.newsapi.com.au/image/v1/0a0ceda4bda18e664ffac1a8fa86a7d1");
   background-size: cover;
 }
-.map {
-  height: 50%;
-}
+
 .gamesList {
-  background-color: #149F71;
-  color: black;
   height: 60%;
   overflow: scroll;
 }
+.
 ::-webkit-scrollbar {
   width: 0;
   background: transparent;
