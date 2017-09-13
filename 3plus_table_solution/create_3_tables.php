@@ -16,13 +16,14 @@ if(!$conn){
 
     //checking if the database is already there may not be working quite right.
 
-$database_delete_query = "DROP DATABASE IF EXISTS `bgb_db`";
-
-if(mysqli_query($conn, $database_delete_query)) {
-    echo "out with the old, ";
-}else{
-    echo "didn\'t need to drop anything";
-};
+//on second thought, this code is dangerous, so I commented it out
+//$database_delete_query = "DROP DATABASE IF EXISTS `bgb_db`";
+//
+//if(mysqli_query($conn, $database_delete_query)) {
+//    echo "out with the old, ";
+//}else{
+//    echo "didn\'t need to drop anything";
+//};
 
 
 //create a database
