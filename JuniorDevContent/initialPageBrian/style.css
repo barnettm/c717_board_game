@@ -1,4 +1,5 @@
 /*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Yatra One', cursive;*/
 .hamburger{
 	display: none !important;	
 }
@@ -73,6 +74,10 @@ html, body{
 .aboutSiteContent{
 	background-color: rgba(153, 50, 204, 0.45);
 }
+.aboutSiteContent div{
+	font-family: 'Yatra One', cursive;
+	font-size: 24px;
+}
 .gameOfMonth{
 	height: 40%;
 }
@@ -87,9 +92,10 @@ html, body{
 }
 .zipSearchContent button{
 	background-color: red;
+	color: white;
 	font-family: 'Press Start 2P', cursive;
 	box-sizing: border-box;
-	border: 2px dashed;
+	border: 2px dashed white;
 }
 .featuredSection{
 	height: 70%;
