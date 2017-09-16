@@ -1,55 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Host A Game</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Host a Game</title>
     <link rel="stylesheet" href="style.css">
+
+
+    <!--link for wireframes:-->
+    <!--desktop: https://wireframe.cc/pro/edit/109940-->
+    <!--mobile: https://wireframe.cc/pro/pp/8b653ec45110044-->
+
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <ul class="row">
-        <li class="col-lg-2 col-xs-1">Menu 1</li>
-        <li class="col-lg-2 col-xs-1">Menu 2</licol-xs-1>
-        <li class="col-lg-2 col-xs-1">Menu 3</li>
+<div class="topMenu">
+    <ul>
+        <li>Menu 1</li>
+        <li>Menu 2</li>
+        <li>Menu 2</li>
+        <li><input placeholder="Search"></li>
     </ul>
-  </nav>
-    <div class="jumbotron text-center">
-        <h2>Host a Game Night!</h2>
+</div>
+<div class="header">
+    <h1>Host a Game Night!</h1>
+</div>
+<div class="container">
+    <div class="main-area">
+        <input type="text" placeholder="Where would you like to host your game?">
+        <input type="text" placeholder="What board game would you like to host? ">
+        <input type="text" placeholder="Date" class="smallInput">
+        <input type="text" placeholder="Time" class="smallInput">
+        <input type="text" placeholder="# of players requested" class="smallInput">
+        <input type="text" placeholder="Skill level of players" class="smallInput">
+        <input type="text" placeholder="Additional information - 'bring your own food', 'need additional pieces' etc...">
+        <button>Submit</button>
     </div>
-   <div class="container">
-           <div class="form-row">
-               <div class="col">
-                   <input type="text" class="form-control" placeholder="Where would you like to host a game?">
-               </div>
-               <div class="col">
-                   <input type="text" class="form-control" placeholder="What game would you like to play?">
-               </div>
-               <div class="col">
-                   <div class="col-lg-6 col-sm-12 col-xs-12">
-                       <input type="text" class="form-control" placeholder="Date">
-                   </div>
-                   <div class="col-lg-6 col-sm-12 col-xs-12">
-                       <input type="text" class="form-control" placeholder="Time">
-                   </div>
-               </div>
-               <div class="col">
-                   <div class="col-lg-6 col-sm-12 col-xs-12">
-                       <input type="text" class="form-control" placeholder="# of Players requested">
-                   </div>
-                   <div class="col-lg-6 col-sm-12 col-xs-12">
-                       <input type="text" class="form-control" placeholder="Skill Level of players">
-                   </div>
-               </div>
-               <div class="col">
-                   <div class="col">
-                       <input type="text" class="form-control" placeholder="Additional Information - 'bring own food', 'need additional pieces', etc...">
-                   </div>
-               </div>
-               <div class="form-row">
-                   <button class="btn btn-primary col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">Submit</button>
-               </div>
-           </div>
-   </div>
+    <div class="footer">
+    </div>
+</div>
 </body>
 </html>
